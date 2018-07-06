@@ -1,0 +1,635 @@
+<object-stream>
+  <java.util.Stack serialization="custom">
+    <unserializable-parents/>
+    <vector>
+      <default>
+        <capacityIncrement>0</capacityIncrement>
+        <elementCount>3</elementCount>
+        <elementData>
+          <map>
+            <entry>
+              <long>1</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>10</movieId>
+                <rating>1.0</rating>
+                <id>1</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>2</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>10</movieId>
+                <rating>1.0</rating>
+                <id>2</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>3</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>10</movieId>
+                <rating>3.0</rating>
+                <id>3</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>4</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>10</movieId>
+                <rating>5.0</rating>
+                <id>4</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>5</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>10</movieId>
+                <rating>-5.0</rating>
+                <id>5</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>6</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>1</movieId>
+                <rating>3.0</rating>
+                <id>6</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>7</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>1</movieId>
+                <rating>5.0</rating>
+                <id>7</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>8</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>1</movieId>
+                <rating>5.0</rating>
+                <id>8</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>9</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>1</movieId>
+                <rating>1.0</rating>
+                <id>9</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>10</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>1</movieId>
+                <rating>3.0</rating>
+                <id>10</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>11</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>1</movieId>
+                <rating>5.0</rating>
+                <id>11</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>12</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>1</movieId>
+                <rating>3.0</rating>
+                <id>12</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>13</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>2</movieId>
+                <rating>5.0</rating>
+                <id>13</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>14</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>2</movieId>
+                <rating>3.0</rating>
+                <id>14</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>15</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>2</movieId>
+                <rating>1.0</rating>
+                <id>15</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>16</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>2</movieId>
+                <rating>-5.0</rating>
+                <id>16</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>17</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>2</movieId>
+                <rating>1.0</rating>
+                <id>17</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>18</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>3</movieId>
+                <rating>3.0</rating>
+                <id>18</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>19</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>3</movieId>
+                <rating>3.0</rating>
+                <id>19</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>20</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>3</movieId>
+                <rating>1.0</rating>
+                <id>20</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>21</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>3</movieId>
+                <rating>-3.0</rating>
+                <id>21</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>22</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>3</movieId>
+                <rating>5.0</rating>
+                <id>22</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>23</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>3</movieId>
+                <rating>1.0</rating>
+                <id>23</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>24</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>4</movieId>
+                <rating>-5.0</rating>
+                <id>24</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>25</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>4</movieId>
+                <rating>-3.0</rating>
+                <id>25</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>26</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>4</movieId>
+                <rating>1.0</rating>
+                <id>26</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>27</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>4</movieId>
+                <rating>1.0</rating>
+                <id>27</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>28</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>4</movieId>
+                <rating>5.0</rating>
+                <id>28</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>29</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>4</movieId>
+                <rating>5.0</rating>
+                <id>29</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>30</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>4</movieId>
+                <rating>-5.0</rating>
+                <id>30</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>31</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>4</movieId>
+                <rating>-5.0</rating>
+                <id>31</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>32</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>5</movieId>
+                <rating>3.0</rating>
+                <id>32</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>33</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>5</movieId>
+                <rating>-3.0</rating>
+                <id>33</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>34</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>5</movieId>
+                <rating>-5.0</rating>
+                <id>34</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>35</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>5</movieId>
+                <rating>-5.0</rating>
+                <id>35</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>36</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>5</movieId>
+                <rating>-3.0</rating>
+                <id>36</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>37</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>6</movieId>
+                <rating>1.0</rating>
+                <id>37</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>38</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>7</movieId>
+                <rating>1.0</rating>
+                <id>38</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>39</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>7</movieId>
+                <rating>3.0</rating>
+                <id>39</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>40</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>7</movieId>
+                <rating>-5.0</rating>
+                <id>40</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>41</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>7</movieId>
+                <rating>3.0</rating>
+                <id>41</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>42</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>7</movieId>
+                <rating>3.0</rating>
+                <id>42</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>43</long>
+              <Models.Ratings>
+                <userId>3</userId>
+                <movieId>8</movieId>
+                <rating>5.0</rating>
+                <id>43</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>44</long>
+              <Models.Ratings>
+                <userId>4</userId>
+                <movieId>8</movieId>
+                <rating>3.0</rating>
+                <id>44</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>45</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>8</movieId>
+                <rating>1.0</rating>
+                <id>45</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>46</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>9</movieId>
+                <rating>1.0</rating>
+                <id>46</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>47</long>
+              <Models.Ratings>
+                <userId>5</userId>
+                <movieId>9</movieId>
+                <rating>-5.0</rating>
+                <id>47</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>48</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>10</movieId>
+                <rating>3.0</rating>
+                <id>48</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>49</long>
+              <Models.Ratings>
+                <userId>1</userId>
+                <movieId>10</movieId>
+                <rating>3.0</rating>
+                <id>49</id>
+              </Models.Ratings>
+            </entry>
+            <entry>
+              <long>50</long>
+              <Models.Ratings>
+                <userId>2</userId>
+                <movieId>10</movieId>
+                <rating>5.0</rating>
+                <id>50</id>
+              </Models.Ratings>
+            </entry>
+          </map>
+          <map>
+            <entry>
+              <long>1</long>
+              <Models.Movie>
+                <title>Toy Story (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[6]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[7]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[8]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[9]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[10]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[11]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[12]/Models.Ratings"/>
+                </ratings>
+                <id>1</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>2</long>
+              <Models.Movie>
+                <title>GoldenEye (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/M/title-exact?GoldenEye%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[13]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[14]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[15]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[16]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[17]/Models.Ratings"/>
+                </ratings>
+                <id>2</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>3</long>
+              <Models.Movie>
+                <title>Four Rooms (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/M/title-exact?Four%20Rooms%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[18]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[19]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[20]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[21]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[22]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[23]/Models.Ratings"/>
+                </ratings>
+                <id>3</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>4</long>
+              <Models.Movie>
+                <title>Get Shorty (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/M/title-exact?Get%20Shorty%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[24]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[25]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[26]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[27]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[28]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[29]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[30]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[31]/Models.Ratings"/>
+                </ratings>
+                <id>4</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>5</long>
+              <Models.Movie>
+                <title>Copycat (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/M/title-exact?Copycat%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[32]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[33]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[34]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[35]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[36]/Models.Ratings"/>
+                </ratings>
+                <id>5</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>6</long>
+              <Models.Movie>
+                <title>Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/Title?Yao+a+yao+yao+dao+waipo+qiao+(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[37]/Models.Ratings"/>
+                </ratings>
+                <id>6</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>7</long>
+              <Models.Movie>
+                <title>Twelve Monkeys (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/M/title-exact?Twelve%20Monkeys%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[38]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[39]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[40]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[41]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[42]/Models.Ratings"/>
+                </ratings>
+                <id>7</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>8</long>
+              <Models.Movie>
+                <title>Babe (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/M/title-exact?Babe%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[43]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[44]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[45]/Models.Ratings"/>
+                </ratings>
+                <id>8</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>9</long>
+              <Models.Movie>
+                <title>Dead Man Walking (1995)</title>
+                <year>01-Jan-1995</year>
+                <url>http://us.imdb.com/M/title-exact?Dead%20Man%20Walking%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry[46]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[47]/Models.Ratings"/>
+                </ratings>
+                <id>9</id>
+              </Models.Movie>
+            </entry>
+            <entry>
+              <long>10</long>
+              <Models.Movie>
+                <title>Richard III (1995)</title>
+                <year>22-Jan-1996</year>
+                <url>http://us.imdb.com/M/title-exact?Richard%20III%20(1995)</url>
+                <ratings>
+                  <Models.Ratings reference="../../../../../map/entry/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[2]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[3]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[4]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[5]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[48]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[49]/Models.Ratings"/>
+                  <Models.Ratings reference="../../../../../map/entry[50]/Models.Ratings"/>
+                </ratings>
+                <id>10</id>
+              </Models.Movie>
+            </entry>
+          </map>
+          <map/>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+          <null/>
+        </elementData>
+      </default>
+    </vector>
+  </java.util.Stack>
+</object-stream>

@@ -15,8 +15,6 @@ import Utils.XMLSerializer;
 import Models.Movie;
 import Models.Ratings;
 
-
-
 public class Main {
 	
 	public MovieAPI movieAPI;
@@ -25,8 +23,8 @@ public class Main {
 	private Ratings rating;
 
 	public Main() throws Exception{	
-		File datastore = new File("dataStore.xml");
-		Serializer serializer = new XMLSerializer();
+		File datastore = new File("./Files/dataStore.xml");
+		Serializer serializer = new XMLSerializer(datastore);
 		
 		movieAPI = new MovieAPI(serializer);
 		if(datastore.isFile()){
@@ -37,9 +35,10 @@ public class Main {
 	
 	public static void main(String[] args) throws Exception{
 		Main main = new Main();
+		main.movieAPI.initalLoad();
 		Shell shell = ShellFactory.createConsoleShell("MR", "Welcome to Movie Recommender - ?help for instructions", main);
 		shell.commandLoop();
-		((Serializer) main.movieAPI).write();
+	    main.movieAPI.store();
 	}
 	
 
@@ -47,23 +46,17 @@ public class Main {
 	
 	
 	public String load() throws Exception{
-		movieAPI.load();
+		movieAPI.initalLoad();
 		return "Data Loaded";
 	}
 	
 	
 	
-	public String save() throws Exception{
-		((Serializer) movieAPI).write();
-		return "Data Saved";
-	}
-	
-	
 	@Command(description="Get all users details")
-	  public  void getUsers ()
+	  public  void getAllUsers ()
 	  {
-	    Collection<User> users = movieAPI.getUsers();
-	    System.out.println(users);
+	   
+	    System.out.println(movieAPI.getUsers());
 	  }
 	
 	@Command(description = "Add-User")

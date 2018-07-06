@@ -1,82 +1,58 @@
 package Utils;
 
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.xml.DomDriver;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.List;
 import java.util.Stack;
 
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.xml.DomDriver;
+public class XMLSerializer implements Serializer {
 
-import Models.User;
-import Models.Movie;
-import Models.Ratings;
+	private Stack stack = new Stack();
+	private File file;
 
-public class XMLSerializer implements  Serializer{
-	
-	private Stack<Object> stack = new Stack<Object>();
-	private File datastore;
-	
-	
-	
-
-	public void push(Object movieInfo) {
-		stack.push(movieInfo);
+	public XMLSerializer(File file) {
+		this.file = file;
 	}
-	
+
+	public void push(Object o) {
+		stack.push(o);
+	}
+
 	public Object pop() {
 		return stack.pop();
 	}
-	
-	public void	read() throws Exception{
-		ObjectInputStream is = null;
-		try {
-			XStream xstream = new XStream(new DomDriver());
-			is = xstream.createObjectInputStream(new FileReader(datastore));
-			Object obj = is.readObject();
-			while(obj != null) {
-				stack.push(obj);
-				obj= is.readObject();
-			}
-		}
-		finally {
-			if(is != null)
-			{
-				is.close();
-			}
-		}
-}
-	
-	public void	write() throws Exception{
-		ObjectOutputStream os = null;
-		try {
-			XStream xstream = new XStream(new DomDriver());
-			os = xstream.createObjectOutputStream(new FileWriter(datastore));
-			os.writeObject(stack);
 
-		}
-			finally {
-				if(os !=null) {
-					os.close();
-				}
+	public void read() throws Exception {
+		ObjectInputStream inputFile = null;
+
+		try {
+
+			XStream xstream = new XStream(new DomDriver());
+			inputFile = xstream.createObjectInputStream(new FileReader(file));
+			stack = (Stack) inputFile.readObject();
+		} finally {
+			if (inputFile != null) {
+				inputFile.close();
 			}
 		}
-
-	public List<Ratings> loadRatings(String string) {
-		
-		return null;
 	}
 
-	public List<Movie> loadmovies(String string) {
-		
-		return null;
-	}
+	public void write() throws Exception {
+		ObjectOutputStream outputFile = null;
 
-	public List<User> loadUsers(String string) {
-		
-		return null;
+		try {
+			XStream xstream = new XStream(new DomDriver());
+			outputFile = xstream.createObjectOutputStream(new FileWriter(file));
+			outputFile.writeObject(stack);
+		} finally {
+			if (outputFile != null) {
+				outputFile.close();
+			}
+		}
 	}
 }

@@ -3,9 +3,9 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Test"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Jackc/Downloads/cliche-4/cliche-4/asg.cliche.jar" sourcepath="C:/Users/Jackc/Downloads/cliche-4"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Jackc/Downloads/guava-18.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Jackc/Downloads/xstream-1.4.10.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="libs/guava-18.0 (1).jar"/>
+	<classpathentry kind="lib" path="libs/xstream-1.4.10 (1).jar"/>
+	<classpathentry kind="lib" path="libs/asg.cliche-110413.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

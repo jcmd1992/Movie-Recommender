@@ -37,6 +37,7 @@ public class MovieAPI {
 		Scanner scanner = new Scanner(new File("./Files/users5.dat"));
 		while (scanner.hasNextLine()) {
 			String userDetails = scanner.nextLine();
+			System.out.println(userDetails);
 			// parse user details string
 			String[] userTokens = userDetails.split(delims);
 
@@ -94,9 +95,9 @@ public class MovieAPI {
 	}
 
 	public void store() throws Exception {
-		serializer.push(ratingIndex);
-		serializer.push(movieIndex);
 		serializer.push(userIndex);
+		serializer.push(movieIndex);
+		serializer.push(ratingIndex);
 		
 		serializer.write();
 	}
